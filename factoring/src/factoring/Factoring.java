@@ -19,11 +19,11 @@ public class Factoring {
      */
     public static void main(String[] args) {
         int n = getInput();
-        //displayPrimeFactors(n);
-        //displayList(getPrimeFactors(n));
+      
+        displayList(getPrimeFactors(n));
         if (isFactorListValid(getPrimeFactors(n), n)) {
-            displayPrimeFactors(n);
-            System.out.println("Everything is amazing");
+            System.out.println("I have checked that the factors are correct.");
+
         }
     }
 
